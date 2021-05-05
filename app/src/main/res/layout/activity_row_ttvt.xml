@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="414dp"
+        android:layout_height="157dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="60dp">
+
+        <ImageView
+            android:id="@+id/img_kho"
+            android:layout_width="159dp"
+            android:layout_height="156dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginRight="10sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_maVT"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="Ma VT:" />
+
+            <TextView
+                android:id="@+id/tv_tenVT"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="center_vertical"
+                android:text="Tên VT:" />
+
+            <TextView
+                android:id="@+id/tv_dvt"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center_vertical"
+                android:text="DVT: " />
+
+            <TextView
+                android:id="@+id/tv_ttSLVT"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center_vertical"
+                android:text="Số Lượng:" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
